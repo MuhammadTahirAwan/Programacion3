@@ -1,0 +1,133 @@
+*{
+
+
+	margin: 0;
+	padding: 0 ;
+}
+
+.container{
+
+	height: 100vh; 
+	width: 100%;
+/*	background-image: url(../images/Font.png);*/
+	/*background-position: center;
+	background-size: cover;*/
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+	box-sizing: border-box;
+	position: relative;
+	padding: 0;
+}
+
+
+
+
+.navbar{
+
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* Add this line */
+  padding: 0 5%; /* Adjust padding */
+}
+
+.navbar a {
+  float: left;
+
+}
+
+
+.navbar a.split {
+  float: left;
+  background-color: #FF8B00;
+  color: white;
+  margin-left: 650px; /* Add margin-right for spacing */
+/*  padding: 10px 20px; /* Adjust padding */*/
+}
+
+
+
+.section {
+    height: calc(100vh - 15vh); /* Adjust height to fit below navbar */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#section1 {
+    background-image: url('images/Font.jpg'); /* Replace with your image */
+}
+
+#section2 {
+    background-image: url('images/packaging.jpg'); /* Replace with your image */
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(39, 39, 39, 0.1);
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  border-radius: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+	float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Pavelt';
+  src: url('../fonts/Pavelt.ttf') format('truetype');
+
+/*	src: url('fonts/Pavelt.ttf') format('truetype');*/
+/*  font-family: Pavelt, Arial-Rounded;*/
+}
+
+/* Change the link color to #111 (black) on hover */
+
+/*li a:hover{
+
+	text-transform: uppercase;
+
+}*/
+
+@font-face {
+    font-family: 'Pavelt';
+    src: url('../fonts/Pavelt.ttf') format('truetype');
+}
+
+ul:hover{
+
+	box-shadow: 0 0 30px #FF8B00;
+	
+
+}
+
+li a:hover {
+
+	color: #FF8B00;
+}
+

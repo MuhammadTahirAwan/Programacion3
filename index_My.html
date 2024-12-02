@@ -1,0 +1,88 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/login_estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>          
+    <title>
+        Login Form
+    </title>
+
+
+    <style>
+        .rotating-div {
+            
+           
+            transition: transform 3.5s ease-in-out;
+        }
+
+        .rotating-div:hover {
+            transform: rotate(-2deg);
+        }
+    </style>
+    
+</head>
+<body>
+
+   
+
+
+    <div class="container"> 
+       
+        <nav class="navbar navbar-custom rotating-div">
+          <div class="container-fluid">
+            
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">➤ ⏐ Home</a></li>
+                
+            </ul>
+            
+          </div>
+        </nav>
+
+
+
+    <div class="wrapper">
+            <form action="login.php" method="post" id="loginForm">
+                
+                <h2 class="trans">Login</h2>
+
+                <div class="input-box">
+                    <input name="username" class="trans" type="text" placeholder="Username" required id="username">
+                    <i class='bx bxs-user' ></i>
+                </div>
+
+                <div class="input-box">
+                    <input name="password" type="password" placeholder="Password" required id="password">
+                    <i class='bx bxs-lock-alt' ></i>
+
+                </div>
+
+
+               
+                <button type="submit" class="btn gradientborder" id="navi">Login </button>
+
+                
+
+            </form>
+            <!-- <script src="../js/LoginForm.js"></script> -->
+    </div>
+
+        
+    </div>
+
+
+
+</body>
+
+
+
+
+</html>
+
+
+

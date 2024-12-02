@@ -1,0 +1,335 @@
+* {
+
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Pavelt';
+   src: url('../fonts/Pavelt.ttf') format('truetype');
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+
+body{
+
+	
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	min-height: 100vh;
+
+}
+
+.container-fluid{
+
+    align-items: center;
+}
+
+
+
+.container{
+
+	height: 100vh; 
+	width: 100%;
+  	background-image: url(../images/TitleDCV3.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 0;
+	padding-right: 0;
+	box-sizing: border-box;
+	position: relative;
+	padding: 0;
+}
+
+.wrapper{
+
+	padding: 50px;
+	height: 400px;
+	width: 500px;
+/*	color: transparent;*/
+	margin: auto;
+	align-items: center;
+	padding-left: 100;
+	box-shadow: 0px 0px 55px #FF8B00;
+	background: rgba(39, 39, 39, 0.1);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    border-radius: 25px;
+  
+    justify-content: space-between; /* Add this line */
+/*  padding: 0 5%;*/
+
+
+}
+
+.wrapper .input-box{
+
+	width: 90%;
+	height: 50px;
+	background: none;
+}
+
+.input-box input{
+
+	width: 90%;
+	height: 100%;
+	outline: none;
+
+
+}
+
+/*h2{
+
+
+	background: rgba(39, 39, 39, 0.1);
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  border-radius: 25px;
+
+
+	background-clip: text;
+
+	box-shadow: 0 0 70px #000000;
+	color: transparent;
+	-webkit-background-clip: text;
+
+
+	-webkit-text-fill-color:transparent;
+	
+}*/
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+/*    background-color: transparent;*/
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+    background: linear-gradient(-45deg, #714aa7, #714aa7, #2928E1, #2928E1, #4E39C3, #ECB295, #FD8A33);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    
+
+
+      
+      
+      
+}
+
+.register-link {
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+
+.btnNew{
+
+	color: white;
+
+}
+
+
+
+
+input{
+
+	border: none;
+
+	-webkit-background-clip: text;
+/*	box-shadow: 0 0 70px #000000;*/
+/*	color: trasnparent;*/
+}
+
+label{
+
+	border: none;
+	color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add this line */
+    padding: 0 5%; /* Adjust padding */
+}
+
+
+.navbar a {
+  float: left;
+
+}
+
+.navbar-custom{
+    background: rgba(39, 39, 39, 0.1);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    height: 12vh;
+}
+
+.navbar a.split {
+/*  float: left;*/
+  background-color: #FF8B00;
+  color: white;
+/*  margin-left: 650px; /* Add margin-right for spacing */*/
+/*  padding: 10px 20px; /* Adjust padding */*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(39, 39, 39, 0.1);
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  border-radius: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+	float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Pavelt';
+  src: url('../fonts/Pavelt.ttf') format('truetype');
+
+/*	src: url('fonts/Pavelt.ttf') format('truetype');*/
+/*  font-family: Pavelt, Arial-Rounded;*/
+}
+
+/* Change the link color to #111 (black) on hover */
+
+/*li a:hover{
+
+	text-transform: uppercase;
+
+}*/
+
+@font-face {
+    font-family: 'Pavelt';
+    src: url('../fonts/Pavelt.ttf') format('truetype');
+}
+
+ul:hover{
+
+	box-shadow: 0 0 30px #FF8B00;
+	
+
+}
+
+li a:hover {
+
+	color: #FF8B00;
+}
+
+
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+

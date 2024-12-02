@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV - Resume</title>
+    <style>
+        body {
+            width: 100wh;
+            height: 100vh;
+            color: #fff;
+            background: linear-gradient(-45deg, #714aa7, #714aa7, #2928E1, #2928E1, #4E39C3, #ECB295, #FD8A33);
+            background-size: 400% 400%;
+            -webkit-animation: Gradient 15s ease infinite;
+            -moz-animation: Gradient 15s ease infinite;
+            animation: Gradient 15s ease infinite;
+            font-family: Arial, sans-serif;
+        }
+
+        @-webkit-keyframes Gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @-moz-keyframes Gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes Gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+
+        .header, .section {
+            margin-bottom: 20px;
+        }
+
+        .header h1, .header h2 {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .section h3 {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 5px;
+        }
+
+        .section p, .section ul {
+            margin: 5px 0;
+            padding: 0;
+        }
+
+        .section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info, .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .contact-info div, .skills ul li {
+            flex: 1 0 48%;
+        }
+
+        .contact-info div {
+            margin-bottom: 10px;
+        }
+
+        .contact-info label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Muhammad Tahir Awan</h1>
+            <h3>Web Developer, iOS Developer, Animator, 3D Modeller</h3>
+        </div>
+        
+        <div class="section">
+            <h3> Informacion del Contacto </h3>
+            <div class="contact-info">
+                <div>
+                    <label>Email:</label>
+                    <p>tahirawanarg@gmail.com</p>
+                </div>
+                <div>
+                    <label>Telefono:</label>
+                    <p>+5491127108329</p>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Detalles Personal</h3>
+            <p>iOS Developer , Swift , Android , Java, 3D Modelling, Animation</p>
+        </div>
+
+        <div class="section">
+            <h3>Experiencia del Trabajo</h3>
+            <ul>
+                <li>
+                    <strong>Titulo</strong> - Toycycle (Deciembre 2020- Mayo 2021)
+                    <p>iOS Developer</p>
+                </li>
+                <li>
+                    <strong>Titulo</strong> - Workitude Solutions (Deciembre 2019 - May0 2020)
+                    <p>iOS Developer</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Educacion</h3>
+            <ul>
+                <li>
+                    <strong>Grado</strong> - Universidad Del Belgrano (Deciembre 2022)
+                    <p>Tecnicatura Diseno y Animacion Digital </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <div class="skills">
+                <ul>
+                    <li>Android</li>
+                    <li>iOS</li>
+                    <li>3D Modelling</li>
+                    <li>Animation</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Proyectos</h3>
+            <ul>
+                <li>
+                    <strong>FreedomStudio</strong> - An iOS AR App.
+                </li>
+                <li>
+                    <strong>JAVA ONLINE</strong> - JAVA Online Compiler.
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,284 @@
+*{
+
+
+	margin: 0;
+	padding: 0 ;
+}
+
+.container-fluid{
+
+    align-items: center;
+}
+
+.container{
+
+	height: 100vh; 
+	width: 100%;
+/*	background-image: url(../images/Font.png);*/
+	/*background-position: center;
+	background-size: cover;*/
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+	box-sizing: border-box;
+	position: relative;
+	padding: 0;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+.display-4{
+
+    font-family: 'Pavelt';
+    font-size: 60px;
+    /*background: -webkit-linear-gradient(360deg, #FF8B00, #2928E1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent*/
+    color: white;
+}
+
+
+.navbar-default {
+    background: rgba(39, 39, 39, 0.1) !important;
+/*  background-color: red !important;*/
+  background-image: none;
+}
+
+
+
+
+.navbar-custom{
+    background: rgba(39, 39, 39, 0.1);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    
+}
+
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+      color: white;
+}
+.navbar-default .navbar-brand {
+      color: white;
+}
+
+
+logo
+{
+  float: left;
+    border-color: black;
+    font-size:80px;
+    margin: 10px;
+    color:black;
+}
+
+body {
+    width: 100wh;
+    height: 10vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #714aa7, #714aa7, #2928E1, #2928E1, #4E39C3, #ECB295, #FD8A33);
+    background-size: 200% 200%;
+    -webkit-animation: Gradient 4s ease infinite;
+    -moz-animation: Gradient 4s ease infinite;
+    animation: Gradient 4s ease infinite;
+}
+
+
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 80% 30%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 80% 30%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 80% 30%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+h6 {
+    font-family: "Arial Rounded MT Bold";
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+ color: white;
+    top: 10%;
+    right: 0;
+    left: 0;
+
+   
+}
+
+
+img{
+
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 580px;
+
+}
+
+
+.rotating-image {
+    position: absolute;
+    rotate: 10deg;
+    top: 20%;
+    left: -5%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.rotating-image1 {
+    position: absolute;
+    rotate: -10deg;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
+.rotating-image2 {
+    position: absolute;
+    rotate: 30deg;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
+
+.rotating-image3 {
+    position: absolute;
+    rotate: 45deg;
+    top: 70%;
+    left: -30%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
+
+
+
+.section {
+    height: calc(100vh + 15vh); /* Adjust height to fit below navbar */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#section1 {
+    background-image: url('images/Font.jpg'); /* Replace with your image */
+}
+
+#section2 {
+    background-image: url('images/packaging.jpg'); /* Replace with your image */
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(39, 39, 39, 0.1);
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  border-radius: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Pavelt';
+  src: url('../fonts/Pavelt.ttf') format('truetype');
+
+/
+}
+
+/* Change the link color to #111 (black) on hover */
+
+/*li a:hover{
+
+	text-transform: uppercase;
+
+}*/
+
+@font-face {
+    font-family: 'Pavelt';
+    src: url('../fonts/Pavelt.ttf') format('truetype');
+}
+
+ul:hover{
+
+	box-shadow: 0 0 30px #FF8B00;
+    
+	
+
+}
+
+li a:hover {
+
+	color: #FF8B00;
+
+}
+
